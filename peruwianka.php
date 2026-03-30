@@ -68,7 +68,7 @@ rasy r on r.id = s.rasy_id where r.id = 1";
 
         </aside>
         <footer>
-            <p>Stronę wykonał: 0000000000000</p>
+            <p>Stronę wykonał: Piotr Zarzycki</p>
         </footer>
     </div>
     <?php
