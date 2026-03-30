@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    background-color: SaddleBrown;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+nav {
+    background-color: peru;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    float: left;
+}
+
+article {
+    width: 100%;
+    height: 700px;
+    font-size: 120%;
+    overflow: auto;
+}
+
+aside {
+    background-color: peru;
+    color: white; 
+    width: 20%;
+    height: 760px;
+    float: left;
+}
+
+
+a {
+    color: #DDD;
+    padding-left: 90px;
+    font-size: 140%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    float: left;
+    margin: 30px;
+}
+
+main {
+    width: 80%;
+    float: left;
+}
+
+footer {
+    clear: both;
+}

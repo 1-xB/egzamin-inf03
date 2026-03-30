@@ -1,0 +1,8 @@
+select imie, miot from swinki where MONTH(data_ur) = 7;
+
+select distinct s.data_ur, s.miot, r.rasa from swinki s join
+rasy r on r.id = s.rasy_id where r.id = 1
+
+select imie, cena, opis from swinki where rasy_id = 1; 
+
+select rasa from rasy;
